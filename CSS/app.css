@@ -2,10 +2,23 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.about {
+  background-color: #013679;
+  margin-top: 120px;
+  padding: 80px 0;
+}
 
+p.bio-text {
+  text-align: justify;
+}
 
+/* Button */
 a.button-project {
-    background-color: #013679;
+  background-color: #013679;
+}
+
+a.button-bio {
+  background-color: #957E7E ;
 }
 
 @media (max-width: 700px) {

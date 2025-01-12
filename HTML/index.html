@@ -37,10 +37,10 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item me-3">
-              <a href="#" class="nav-link">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item me-3">
-              <a href="#" class="nav-link">About</a>
+              <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item me-3">
               <a href="#" class="nav-link">Project</a>
@@ -54,13 +54,14 @@
     </nav>
 
     <!-- Content -->
-    <div class="background-introduction">
-      <section class="introduction container">
+    <section class="background-introduction">
+      <div class="introduction container">
         <img
           src="/Image/FotoProfile.png"
           alt="Foto Profile"
           class="profile mx-auto d-block mt-5"
           width="300px"
+          id="home"
         />
 
         <h1 class="text-center fs-2 fw-bold mt-4">
@@ -81,14 +82,63 @@
             >PROJECT</a
           >
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
-    <div class="">
-      <section>
-        <h1>Section 2</h1>
-      </section>
-    </div>
+    <section class="about container-fluid px-0">
+      <div class="about-me container">
+        <h1 class="about-me text-light text-center fs-2">ABOUT ME</h1>
+        <p class="text-center text-light pt-2">
+          Disini anda akan menemukan banyak informasi tentang saya, apa yang
+          saya lakukan, dan keterampilan <br />
+          saya saat ini, sebagaian besar dalam hal pemrograman, design dan
+          teknologi.
+        </p>
+
+        <div class="row content" id="about">
+          <div class="col-lg-6">
+            <div class="text-white">
+              <h3 class="fs-4">Kenali Saya</h3>
+              <p class="bio-text">
+                Saya seorang Fullstack Develeloper sekaligus UI/UX Design yang
+                membangun dan mengelola aplikasi web serta desain antarmuka
+                pengguna yang berfokus pada pengalaman terbaik. Saya selalu
+                berupaya menciptakan solusi yang tidak hanya fungsional tetapi
+                juga estetik untuk mendukung kesuksesan produk. Lihat beberapa
+                karya saya di bagian project.
+              </p>
+              <p class="bio-text">
+                Jangan ragu untuk terhubung atau mengikuti saya di
+                <a href="#">LinkedIn</a>dan <a href="#">Instagram</a>, Saya
+                terbuka untuk peluang kerja atau kolaborasi yang memungkinkan
+                saya untuk berkontribusi, belajar, dan terus berkembang. Jika
+                anda memiliki peluang menarik yang sesuai dengan keterampilan
+                dan pengalaman saya, silakan hubungi saya.
+              </p>
+
+              <div class="d-grid col-4">
+                <a
+                  href="#"
+                  type="button"
+                  class="button-bio btn btn-primary fw-bold p-3"
+                  >CONTACT</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-white"><h3 class="fs-4">Skill Saya</h3></div>
+
+            <div class="button-skill">
+                <button type="button" class="btn btn-light px-3 me-2">GIT</button>              
+                <button type="button" class="btn btn-light px-3 me-2">HTML</button>              
+                <button type="button" class="btn btn-light px-3 me-2">CSS</button>              
+                <button type="button" class="btn btn-light px-3 me-2">Bootstrap</button>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

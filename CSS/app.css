@@ -1,0 +1,15 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+a.button-project {
+    background-color: #013679;
+}
+
+@media (max-width: 700px) {
+  .profile {
+    width: 250px;
+  }
+}
